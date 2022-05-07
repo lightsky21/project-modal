@@ -17,12 +17,12 @@
   <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
   <button type="button" data-modal-open></button>
   <div class="backdrop is-hidden" data-modal>
-    <div class="modal"><button type="button" class="modal-close-btn" data-modal-close>
+    <div class="modal"><button type="button" class="modal-close-btn close" data-modal-close>
       </button>
       <!-- <svg class="modal-close-icon" width="30" height="30">
         <use href="./images/symbol-defs.svg#icon-close"></use> -->
       <div class="modal-wrapper">
-        <div class="modal-img-card">
+        <div class="modal__img">
           <img src="https://themoviedb.org/t/p/w500/ci5A9TPmNajMxt1L8p4KlZ76sc9.jpg" alt="">
         </div>
         <div class="modal-info">
@@ -83,12 +83,12 @@
           <!-- </div> -->
           <ul class="modal-buttons-add-list">
             <li class="modal-buttons-add-item">
-              <button class="modal-btn-add modal-btn-add--watched uppercase-text" type="button">
+              <button class="modal-btn-add card__btn-watched modal-btn-add--watched uppercase-text" type="button">
                 add to Watched
               </button>
             </li>
             <li class="modal-buttons-item">
-              <button class="modal-btn-add modal-btn-add--queue uppercase-text" type="button">
+              <button class="modal-btn-add card__btn-que modal-btn-add--queue uppercase-text" type="button">
                 add to queue
               </button>
             </li>
