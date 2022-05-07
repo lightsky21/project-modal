@@ -206,6 +206,9 @@ button {
         line-height: 1.17;
       }
 }
+
+
+//|||||||||||||||||||||||SHORT-INFO||||||||||||||||||||||||||||||
 .modal-short-info {
   display: flex;
   margin-bottom: 20px;
@@ -259,6 +262,9 @@ button {
   color: #000000;
 }
 
+
+
+//|||||||||||||||||||||||||||||||||||||||||||ABOUT||||||||||||||||||||||||||
 .modal__about-title{
   margin-bottom: 8px;
   font-weight: 500;
@@ -285,13 +291,20 @@ button {
   font-size: 12px;
   line-height: 1.67;
 }
+
+
+
+////////////////////////КНОПКИ////////////////////////////
 .modal-buttons-add-list {
   display: flex;
-  // justify-content: center;
+
 }
 .modal-buttons-add-item{
   &:not(:last-child) {
     margin-right: 10px;
+    @media screen and (min-width: 1024px) {
+        padding-left: 8px;
+      }
   }
 }
 .modal-btn-add{
